@@ -9,9 +9,9 @@ plt.plot(CTox)
 plt.ylabel("Number of Plants")
 plt.xlabel("Toxicity Status")
 plt.title("How Many Plants in MD are Toxic?")
-#plt.show()
+plt.show()
 
 df = pd.DataFrame(data)
 SevTox = df[df["Toxicity"]=="Severe"]
 #CSevTox = SevTox.value_counts("Toxicity")
-#print(CSevTox)
+#print(SevTox)
